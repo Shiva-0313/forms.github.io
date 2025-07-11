@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="icon" href="2.img.png">
+</head>
+<body bgcolor="yellow">
+    <center><h1>FORM</h1></center>
+    <form action="gr.html">
+       
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <label for="firstname">firstname</label>
+            <input type="text" id="firstname" pattern="[A-Za-z](3-10)"><br><br>
+            <label for="mobile">mobile </label>
+            <input type="tel" id="mobile" pattern="{6-9}[0-9]{9}"><br><br>
+            <label for="email">email</label>
+            <input type="email" id="email">
+        
+        </fieldset>
+        <fieldset>
+            <legend>Education details</legend>
+            <label for="">DEPARTMENT</label><BR></BR>
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">cs</label>
+            <input type="radio" id="ece" name="dept">
+            <label for="ece">ece</label>
+            <input type="radio" name="dept" id="civil">
+            <label for="civil">civil</label><br><br>
+            <legend>year of passing</legend>
+            <select name="" id="">
+                <option value="">2024</option>
+                <option value="">2023</option>
+                <option value="">2022</option>
+                <option value="">2022</option> </select><br><br>
+                <legend>skills</legend><br>
+                <input type="checkbox" name="dept">
+                <label for="">java</label><br><br>
+                <input type="checkbox" name="dept">
+                <label for="">python</label><br><br>
+                <input type="checkbox" name="dept">
+                <label for="">css</label><br><br>
+                <button>submit</button>
+                <abbr title="hyper test transfer protocal">HTTP</abbr>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
